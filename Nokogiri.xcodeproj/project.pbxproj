@@ -93,6 +93,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2E51A832296AEDA700D14973 /* PBXTargetDependency */,
 				2E51A82E296AEBBC00D14973 /* PBXTargetDependency */,
 			);
 			name = Nokogiri;
@@ -164,6 +165,10 @@
 		2E51A82E296AEBBC00D14973 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			productRef = 2E51A82D296AEBBC00D14973 /* SwiftLintPlugin */;
+		};
+		2E51A832296AEDA700D14973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 2E51A831296AEDA700D14973 /* swiftlint */;
 		};
 /* End PBXTargetDependency section */
 
@@ -392,6 +397,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2E51A82C296AEA2600D14973 /* XCRemoteSwiftPackageReference "SwiftLint" */;
 			productName = "plugin:SwiftLintPlugin";
+		};
+		2E51A831296AEDA700D14973 /* swiftlint */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E51A82C296AEA2600D14973 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = swiftlint;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

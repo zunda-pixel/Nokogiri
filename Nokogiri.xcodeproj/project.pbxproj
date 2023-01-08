@@ -20,6 +20,7 @@
 		2E51A821296AE8FB00D14973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E51A823296AE8FB00D14973 /* Nokogiri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nokogiri.entitlements; sourceTree = "<group>"; };
 		2E51A825296AE8FB00D14973 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E51A830296AECAB00D14973 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +37,7 @@
 		2E51A811296AE8FA00D14973 = {
 			isa = PBXGroup;
 			children = (
+				2E51A82F296AEC9500D14973 /* ci_scripts */,
 				2E51A81C296AE8FA00D14973 /* Nokogiri */,
 				2E51A81B296AE8FA00D14973 /* Products */,
 			);
@@ -67,6 +69,14 @@
 				2E51A825296AE8FB00D14973 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E51A82F296AEC9500D14973 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				2E51A830296AECAB00D14973 /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

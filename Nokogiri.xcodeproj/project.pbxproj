@@ -11,6 +11,7 @@
 		2E51A820296AE8FA00D14973 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E51A81F296AE8FA00D14973 /* ContentView.swift */; };
 		2E51A822296AE8FB00D14973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E51A821296AE8FB00D14973 /* Assets.xcassets */; };
 		2E51A826296AE8FB00D14973 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E51A825296AE8FB00D14973 /* Preview Assets.xcassets */; };
+		2E51A837296BAE0B00D14973 /* SampleBuildTool in Frameworks */ = {isa = PBXBuildFile; productRef = 2E51A836296BAE0B00D14973 /* SampleBuildTool */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E51A837296BAE0B00D14973 /* SampleBuildTool in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,11 +95,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				2E51A834296AEEBF00D14973 /* PBXTargetDependency */,
-				2E51A832296AEDA700D14973 /* PBXTargetDependency */,
-				2E51A82E296AEBBC00D14973 /* PBXTargetDependency */,
 			);
 			name = Nokogiri;
+			packageProductDependencies = (
+				2E51A836296BAE0B00D14973 /* SampleBuildTool */,
+			);
 			productName = Nokogiri;
 			productReference = 2E51A81A296AE8FA00D14973 /* Nokogiri.app */;
 			productType = "com.apple.product-type.application";
@@ -127,7 +129,7 @@
 			);
 			mainGroup = 2E51A811296AE8FA00D14973;
 			packageReferences = (
-				2E51A82C296AEA2600D14973 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				2E51A835296BAE0B00D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */,
 			);
 			productRefGroup = 2E51A81B296AE8FA00D14973 /* Products */;
 			projectDirPath = "";
@@ -161,21 +163,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2E51A82E296AEBBC00D14973 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 2E51A82D296AEBBC00D14973 /* SwiftLintPlugin */;
-		};
-		2E51A832296AEDA700D14973 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 2E51A831296AEDA700D14973 /* swiftlint */;
-		};
-		2E51A834296AEEBF00D14973 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 2E51A833296AEEBF00D14973 /* SwiftLintFramework */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2E51A827296AE8FB00D14973 /* Debug */ = {
@@ -387,9 +374,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2E51A82C296AEA2600D14973 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+		2E51A835296BAE0B00D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/SwiftLint";
+			repositoryURL = "https://github.com/zunda-pixel/SampleBuildTool";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -398,20 +385,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2E51A82D296AEBBC00D14973 /* SwiftLintPlugin */ = {
+		2E51A836296BAE0B00D14973 /* SampleBuildTool */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2E51A82C296AEA2600D14973 /* XCRemoteSwiftPackageReference "SwiftLint" */;
-			productName = "plugin:SwiftLintPlugin";
-		};
-		2E51A831296AEDA700D14973 /* swiftlint */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2E51A82C296AEA2600D14973 /* XCRemoteSwiftPackageReference "SwiftLint" */;
-			productName = swiftlint;
-		};
-		2E51A833296AEEBF00D14973 /* SwiftLintFramework */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2E51A82C296AEA2600D14973 /* XCRemoteSwiftPackageReference "SwiftLint" */;
-			productName = SwiftLintFramework;
+			package = 2E51A835296BAE0B00D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */;
+			productName = SampleBuildTool;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

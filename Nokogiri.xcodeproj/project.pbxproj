@@ -93,6 +93,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2E51A83C296BB0CC00D14973 /* PBXTargetDependency */,
 			);
 			name = Nokogiri;
 			packageProductDependencies = (
@@ -160,6 +161,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E51A83C296BB0CC00D14973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 2E51A83B296BB0CC00D14973 /* SampleBuildTool */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2E51A827296AE8FB00D14973 /* Debug */ = {
@@ -380,6 +388,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E51A83B296BB0CC00D14973 /* SampleBuildTool */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E51A83A296BB09800D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */;
+			productName = "plugin:SampleBuildTool";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E51A812296AE8FA00D14973 /* Project object */;
 }

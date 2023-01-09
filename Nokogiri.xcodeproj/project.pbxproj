@@ -11,7 +11,6 @@
 		2E51A820296AE8FA00D14973 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E51A81F296AE8FA00D14973 /* ContentView.swift */; };
 		2E51A822296AE8FB00D14973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E51A821296AE8FB00D14973 /* Assets.xcassets */; };
 		2E51A826296AE8FB00D14973 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E51A825296AE8FB00D14973 /* Preview Assets.xcassets */; };
-		2E51A837296BAE0B00D14973 /* SampleBuildTool in Frameworks */ = {isa = PBXBuildFile; productRef = 2E51A836296BAE0B00D14973 /* SampleBuildTool */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E51A837296BAE0B00D14973 /* SampleBuildTool in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +93,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				2E51A839296BAF5100D14973 /* PBXTargetDependency */,
 			);
 			name = Nokogiri;
 			packageProductDependencies = (
-				2E51A836296BAE0B00D14973 /* SampleBuildTool */,
 			);
 			productName = Nokogiri;
 			productReference = 2E51A81A296AE8FA00D14973 /* Nokogiri.app */;
@@ -130,7 +126,7 @@
 			);
 			mainGroup = 2E51A811296AE8FA00D14973;
 			packageReferences = (
-				2E51A835296BAE0B00D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */,
+				2E51A83A296BB09800D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */,
 			);
 			productRefGroup = 2E51A81B296AE8FA00D14973 /* Products */;
 			projectDirPath = "";
@@ -164,13 +160,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2E51A839296BAF5100D14973 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 2E51A838296BAF5100D14973 /* SampleBuildTool */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2E51A827296AE8FB00D14973 /* Debug */ = {
@@ -382,7 +371,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2E51A835296BAE0B00D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */ = {
+		2E51A83A296BB09800D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/zunda-pixel/SampleBuildTool";
 			requirement = {
@@ -391,19 +380,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		2E51A836296BAE0B00D14973 /* SampleBuildTool */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2E51A835296BAE0B00D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */;
-			productName = SampleBuildTool;
-		};
-		2E51A838296BAF5100D14973 /* SampleBuildTool */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2E51A835296BAE0B00D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */;
-			productName = "plugin:SampleBuildTool";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E51A812296AE8FA00D14973 /* Project object */;
 }

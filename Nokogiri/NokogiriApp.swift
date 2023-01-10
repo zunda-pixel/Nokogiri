@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SampleBuildTool
 
 @main
 struct NokogiriApp: App {

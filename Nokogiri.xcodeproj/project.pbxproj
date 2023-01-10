@@ -11,6 +11,7 @@
 		2E51A820296AE8FA00D14973 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E51A81F296AE8FA00D14973 /* ContentView.swift */; };
 		2E51A822296AE8FB00D14973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E51A821296AE8FB00D14973 /* Assets.xcassets */; };
 		2E51A826296AE8FB00D14973 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E51A825296AE8FB00D14973 /* Preview Assets.xcassets */; };
+		2E51A857296DC65700D14973 /* SampleBuildTool in Frameworks */ = {isa = PBXBuildFile; productRef = 2E51A856296DC65700D14973 /* SampleBuildTool */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E51A857296DC65700D14973 /* SampleBuildTool in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +99,7 @@
 			);
 			name = Nokogiri;
 			packageProductDependencies = (
+				2E51A856296DC65700D14973 /* SampleBuildTool */,
 			);
 			productName = Nokogiri;
 			productReference = 2E51A81A296AE8FA00D14973 /* Nokogiri.app */;
@@ -127,7 +130,7 @@
 			);
 			mainGroup = 2E51A811296AE8FA00D14973;
 			packageReferences = (
-				2E51A83A296BB09800D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */,
+				2E51A855296DC65700D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */,
 			);
 			productRefGroup = 2E51A81B296AE8FA00D14973 /* Products */;
 			projectDirPath = "";
@@ -387,6 +390,14 @@
 				kind = branch;
 			};
 		};
+		2E51A855296DC65700D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zunda-pixel/SampleBuildTool";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -394,6 +405,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2E51A83A296BB09800D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */;
 			productName = "plugin:SampleBuildTool";
+		};
+		2E51A856296DC65700D14973 /* SampleBuildTool */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E51A855296DC65700D14973 /* XCRemoteSwiftPackageReference "SampleBuildTool" */;
+			productName = SampleBuildTool;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

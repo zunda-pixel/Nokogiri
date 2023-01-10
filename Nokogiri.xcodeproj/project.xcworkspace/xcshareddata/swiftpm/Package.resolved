@@ -6,7 +6,16 @@
       "location" : "https://github.com/zunda-pixel/SampleBuildTool",
       "state" : {
         "branch" : "main",
-        "revision" : "6b77d26ed27893357eaf5cb17390b27dbe35b29f"
+        "revision" : "ed3f6640b1801e5dcfae8c39e1d7e3f7e1248a94"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "branch" : "main",
+        "revision" : "255ef663831e9f10cc7b5b6bf74b5708605084a3"
       }
     }
   ],

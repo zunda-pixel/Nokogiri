@@ -22,6 +22,7 @@
 		2E51A823296AE8FB00D14973 /* Nokogiri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nokogiri.entitlements; sourceTree = "<group>"; };
 		2E51A825296AE8FB00D14973 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E51A830296AECAB00D14973 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
+		2E51A858296DCDE800D14973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		2E51A81C296AE8FA00D14973 /* Nokogiri */ = {
 			isa = PBXGroup;
 			children = (
+				2E51A858296DCDE800D14973 /* Info.plist */,
 				2E51A81D296AE8FA00D14973 /* NokogiriApp.swift */,
 				2E51A81F296AE8FA00D14973 /* ContentView.swift */,
 				2E51A821296AE8FB00D14973 /* Assets.xcassets */,
@@ -295,7 +297,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_FILE = Nokogiri/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -334,7 +336,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_FILE = Nokogiri/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
